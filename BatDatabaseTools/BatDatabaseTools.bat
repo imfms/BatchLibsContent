@@ -139,7 +139,7 @@ goto end
 REM __________________________________________________________________Åú´¦ÀíÎÄ±¾Êı¾İ¿â¹¤¾ßÏä____________________________________________________________________________
 REM 
 REM                                                          ±¾¹¤¾ßÏäÖÂÁ¦ÓÚÎÄ±¾Êı¾İ¿âµÄ²Ù×÷Ğ§ÂÊ¼òÒ×»¯
-REM                                                                        -20160507-
+REM                                                                        -20160625-
 REM                                                     ×÷Õß£ºF_Ms | ÓÊÏä£ºimf_ms@yeah.net | ²©¿Í£ºf-ms.cn
 REM ____________________________________________________________________________________________________________________________________________________________________
 REM 
@@ -167,13 +167,13 @@ REM					call:Database_Update "c:\users\a\Database.ini" "	" "4" "1-3,6" "string1"
 REM ____________________________________________________________________________________________________________________________________________________________________
 REM 
 REM #	Database_Print	´ÓÖ¸¶¨ÎÄ¼ş¡¢Ö¸¶¨ĞĞ¡¢Ö¸¶¨·Ö¸ô·û¡¢Ö¸¶¨ÁĞ»ñÈ¡ÄÚÈİ²¢´òÓ¡µ½ÆÁÄ»»òÎÄ¼ş
-REM 		call:Database_Print [/LN(ÏÔÊ¾Êı¾İÔÚÕûÌå´òÓ¡ÄÚÈİÖĞµÄĞòºÅ,·ÇÊı¾İÔÚÊı¾İÔ´ÎÄ¼şÖĞµÄĞĞºÅ)] [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] "Êı¾İÔ´" "Êı¾İÌáÈ¡·Ö¸ô·û" "Êı¾İ´òÓ¡·Ö¸ô·û" "´òÓ¡Êı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "ÒÔ·Ö¸ô·ûÎª·Ö¸îµÄNÁĞÊı¾İ(ÁĞºÅÓëÁĞºÅÖ®¼äÊ¹ÓÃ,·Ö¸î£¬ÇÒ¿ÉÒÔÇø¼ä·Ö¸î·û-)" [/F ÎÄ¼ş(½«ÄÚÈİÊä³öµ½ÎÄ¼ş)] 
+REM call:Database_Print [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/LN(ÏÔÊ¾Êı¾İÔÚÕûÌå´òÓ¡ÄÚÈİÖĞµÄĞòºÅ,·ÇÊı¾İÔÚÊı¾İÔ´ÎÄ¼şÖĞµÄĞĞºÅ)] [/HEAD ´òÓ¡ĞĞÍ·Ìí¼ÓÄÚÈİ] [/FOOT ´òÓ¡ĞĞÎ²×·¼ÓÄÚÈİ] "Êı¾İÔ´" "Êı¾İÌáÈ¡·Ö¸ô·û" "Êı¾İ´òÓ¡·Ö¸ô·û" "´òÓ¡Êı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "ÒÔ·Ö¸ô·ûÎª·Ö¸îµÄNÁĞÊı¾İ(ÁĞºÅÓëÁĞºÅÖ®¼äÊ¹ÓÃ,·Ö¸î£¬ÇÒ¿ÉÒÔÇø¼ä·Ö¸î·û-)" [/F ÎÄ¼ş(½«ÄÚÈİÊä³öµ½ÎÄ¼ş)] 
 REM 			Àı×Ó£º½«ÎÄ¼ş "c:\users\a\Database.ini" ÖĞµÄµÚ4-5ĞĞÒÔ "	" Îª·Ö¸ô·ûµÄµÚ1,2,3,6ÁĞÊı¾İÒÔ"*"Îª·Ö¸ô·û´òÓ¡³öÀ´
 REM 				call:Database_Print "c:\users\a\Database.ini" "	" "*" "4-5" 1-3,6"
 REM ____________________________________________________________________________________________________________________________________________________________________
 REM 
 REM #	Database_Find	´ÓÖ¸¶¨ÎÄ¼ş¡¢Ö¸¶¨ĞĞ¡¢Ö¸¶¨·Ö¸ô·û¡¢Ö¸¶¨ÁĞ¡¢Ö¸¶¨×Ö·û´®ËÑË÷²¢½«ËÑË÷½á¹ûµÄĞĞÁĞºÅĞ´Èëµ½Ö¸¶¨±äÁ¿ÖĞ
-REM 		call:Database_Find [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/i(²»Çø·Ö´óĞ¡Ğ´)] "Êı¾İÔ´" "Êı¾İÁĞ·Ö¸ô·û"  "²éÕÒ×Ö·û´®" "²éÕÒÊı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "²éÕÒÊı¾İÁĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-)" "²éÕÒ½á¹ûĞĞºÅÁĞºÅ½á¹û½ÓÊÜ¸³Öµ±äÁ¿Ãû"
+REM 		call:Database_Find [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/i(²»Çø·Ö´óĞ¡Ğ´)] [/first(·µ»Ø²éÕÒµ½µÄµÚÒ»¸ö½á¹û)] "Êı¾İÔ´" "Êı¾İÁĞ·Ö¸ô·û"  "²éÕÒ×Ö·û´®" "²éÕÒÊı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "²éÕÒÊı¾İÁĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-)" "²éÕÒ½á¹ûĞĞºÅÁĞºÅ½á¹û½ÓÊÜ¸³Öµ±äÁ¿Ãû"
 REM 			×¢Òâ---------------------------------------------------------------------------------------------------------------------------------
 REM 				½á¹û±äÁ¿µÄÊä³ö¸ñÊ½Îª£º"ĞĞ ÁĞ","ĞĞ ÁĞ","..."ÒÀ´Îµİ¼Ó£¬ÀıÈçµÚ¶şĞĞµÚÈıÁĞºÍµÚÎåĞĞµÚÁùÁĞµÄ¸³ÖµÄÚÈİ¾ÍÎª£º"2 3","5 6"
 REM 				¿ÉÒÔÊ¹ÓÃ 'for %%a in (%½á¹û±äÁ¿%) do for /f "tokens=1,2" %%b in ("%%~a") do echo=µÚ%%bĞĞ£¬µÚ%%cÁĞ' µÄ·½·¨½øĞĞ½á¹ûÊ¹ÓÃ
@@ -203,15 +203,15 @@ REM ____________________________________________________________________________
 :---------------------Database_Print---------------------:
 
 REM ´ÓÖ¸¶¨ÎÄ¼ş¡¢Ö¸¶¨ĞĞ¡¢Ö¸¶¨·Ö¸ô·û¡¢Ö¸¶¨ÁĞ»ñÈ¡ÄÚÈİ²¢´òÓ¡µ½ÆÁÄ»»òÎÄ¼ş
-REM call:Database_Print [/LN(ÏÔÊ¾Êı¾İÔÚÕûÌå´òÓ¡ÄÚÈİÖĞµÄĞòºÅ,·ÇÊı¾İÔÚÊı¾İÔ´ÎÄ¼şÖĞµÄĞĞºÅ)] [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] "Êı¾İÔ´" "Êı¾İÌáÈ¡·Ö¸ô·û" "Êı¾İ´òÓ¡·Ö¸ô·û" "´òÓ¡Êı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "ÒÔ·Ö¸ô·ûÎª·Ö¸îµÄNÁĞÊı¾İ(ÁĞºÅÓëÁĞºÅÖ®¼äÊ¹ÓÃ,·Ö¸î£¬ÇÒ¿ÉÒÔÇø¼ä·Ö¸î·û-)" [/F ÎÄ¼ş(½«ÄÚÈİÊä³öµ½ÎÄ¼ş)] 
+REM call:Database_Print [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/LN(ÏÔÊ¾Êı¾İÔÚÕûÌå´òÓ¡ÄÚÈİÖĞµÄĞòºÅ,·ÇÊı¾İÔÚÊı¾İÔ´ÎÄ¼şÖĞµÄĞĞºÅ)] [/HEAD ´òÓ¡ĞĞÍ·Ìí¼ÓÄÚÈİ] [/FOOT ´òÓ¡ĞĞÎ²×·¼ÓÄÚÈİ] "Êı¾İÔ´" "Êı¾İÌáÈ¡·Ö¸ô·û" "Êı¾İ´òÓ¡·Ö¸ô·û" "´òÓ¡Êı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "ÒÔ·Ö¸ô·ûÎª·Ö¸îµÄNÁĞÊı¾İ(ÁĞºÅÓëÁĞºÅÖ®¼äÊ¹ÓÃ,·Ö¸î£¬ÇÒ¿ÉÒÔÇø¼ä·Ö¸î·û-)" [/F ÎÄ¼ş(½«ÄÚÈİÊä³öµ½ÎÄ¼ş)] 
 REM Àı×Ó£º½«ÎÄ¼ş "c:\users\a\Database.ini" ÖĞµÄµÚ4-5ĞĞÒÔ "	" Îª·Ö¸ô·ûµÄµÚ1,2,3,6ÁĞÊı¾İÒÔ"*"Îª·Ö¸ô·û´òÓ¡³öÀ´
 REM					call:Database_Print "c:\users\a\Database.ini" "	" "*" "4-5" 1-3,6"
 REM ·µ»ØÖµÏêÇé£º0-ÔËĞĞÕı³££¬1-²éÎŞ´ËĞĞ£¬2-²ÎÊı²»·ûºÏ×Ó³ÌĞò
 REM ×¢Òâ£ºÁĞÊıÖµ×î¸ßÖ»Ö§³Öµ½31ÁĞ£¬ÍÆ¼öÔÚ´´½¨Êı¾İµÄÊ±ºòÊ¹ÓÃÖÆ±í·û"	"Îª·Ö¸ô·û£¬ÒÔ·ÀºóÆÚÊı¾İºÍ·Ö¸ô·û»ìÏı,ÎÄ±¾Êı¾İ¿âÖĞ²»Òªº¬ÓĞ¿ÕĞĞºÍ¿ÕÖµ£¬·ÀÖ¹·µ»ØÊı¾İ´íÎó
-REM °æ±¾:20151130
+REM °æ±¾:20160625
 :Database_Print
 REM ¼ì²é×Ó³ÌĞòÔËĞĞ»ù±¾ĞèÇó²ÎÊı
-for %%A in (d_P_ErrorPrint d_P_LineNumber) do set "%%A="
+for %%A in (d_P_ErrorPrint d_P_LineNumber d_P_PrintHead d_P_PrintFoot) do set "%%A="
 if /i "%~1"=="/ln" (
 	set "d_P_LineNumber=Yes"
 	shift/1
@@ -220,6 +220,25 @@ if /i "%~1"=="/ln" (
 	set "d_P_LineNumber=Yes"
 	shift/1
 ) else if /i "%~1"=="/q" (shift/1) else set "d_P_ErrorPrint=Yes"
+
+if /i "%~1"=="/head" (
+	set "d_P_PrintHead=%~2"
+	shift/1
+	shift/1
+) else if /i "%~1"=="/foot" (
+	set "d_P_PrintFoot=%~2"
+	shift/1
+	shift/1
+)
+if /i "%~1"=="/head" (
+	set "d_P_PrintHead=%~2"
+	shift/1
+	shift/1
+) else if /i "%~1"=="/foot" (
+	set "d_P_PrintFoot=%~2"
+	shift/1
+	shift/1
+)
 
 if /i "%~6"=="/f" if "%~7"=="" (
 	if defined d_P_ErrorPrint echo=	[´íÎó%0:²ÎÊı7-Ö¸¶¨Êä³öÎÄ¼şÎª¿Õ]
@@ -308,7 +327,7 @@ set "d_P_Count3="
 			
 			if defined d_P_LineNumber set "d_P_LineNumber=!d_P_Count4!.%~3"
 			for /f "eol=^ delims=%%" %%^> in ("!d_P_LineNumber!%%?%~3%%@%~3%%A%~3%%B%~3%%C%~3%%D%~3%%E%~3%%F%~3%%G%~3%%H%~3%%I%~3%%J%~3%%K%~3%%L%~3%%M%~3%%N%~3%%O%~3%%P%~3%%Q%~3%%R%~3%%S%~3%%T%~3%%U%~3%%V%~3%%W%~3%%X%~3%%Y%~3%%Z%~3%%[%~3%%\%~3%%]") do set d_P_ValueTemp=%%^>
-			if "!d_P_ValueTemp:~-1!"=="%~3" (echo=!d_P_ValueTemp:~0,-1!) else echo=!d_P_ValueTemp!
+			if "!d_P_ValueTemp:~-1!"=="%~3" (echo=%d_P_PrintHead%!d_P_ValueTemp:~0,-1!%d_P_PrintFoot%) else echo=%d_P_PrintHead%!d_P_ValueTemp!%d_P_PrintFoot%
 		)
 		if /i not "%d_P_Count%"=="No" (
 			if "%d_P_Count%"=="0" exit/b 0
@@ -807,7 +826,7 @@ exit/b 0
 :---------------------Database_Find---------------------:
 
 REM ´ÓÖ¸¶¨ÎÄ¼ş¡¢Ö¸¶¨ĞĞ¡¢Ö¸¶¨·Ö¸ô·û¡¢Ö¸¶¨ÁĞ¡¢Ö¸¶¨×Ö·û´®ËÑË÷²¢½«ËÑË÷½á¹ûµÄĞĞÁĞºÅĞ´Èëµ½Ö¸¶¨±äÁ¿ÖĞ
-REM call:Database_Find [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/i(²»Çø·Ö´óĞ¡Ğ´)] "Êı¾İÔ´" "Êı¾İÁĞ·Ö¸ô·û"  "²éÕÒ×Ö·û´®" "²éÕÒÊı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "²éÕÒÊı¾İÁĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-)" "²éÕÒ½á¹ûĞĞºÅÁĞºÅ½á¹û½ÓÊÜ¸³Öµ±äÁ¿Ãû"
+REM call:Database_Find [/Q(°²¾²Ä£Ê½£¬²»ÌáÊ¾´íÎó)] [/i(²»Çø·Ö´óĞ¡Ğ´)] [/first(·µ»Ø²éÕÒµ½µÄµÚÒ»¸ö½á¹û)] "Êı¾İÔ´" "Êı¾İÁĞ·Ö¸ô·û"  "²éÕÒ×Ö·û´®" "²éÕÒÊı¾İĞĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-,0ÎªÖ¸¶¨È«²¿ĞĞ)" "²éÕÒÊı¾İÁĞ(Ö§³Öµ¥Êı·Ö¸ô·û,ÓëÇø¼äÁ¬Ğø·Ö¸ô·û-)" "²éÕÒ½á¹ûĞĞºÅÁĞºÅ½á¹û½ÓÊÜ¸³Öµ±äÁ¿Ãû"
 	REM ×¢Òâ£º-------------------------------------------------------------------------------------------------------------------------------
 	REM 	½á¹û±äÁ¿µÄÊä³ö¸ñÊ½Îª£º"ĞĞ ÁĞ","ĞĞ ÁĞ","..."ÒÀ´Îµİ¼Ó£¬ÀıÈçµÚ¶şĞĞµÚÈıÁĞºÍµÚÎåĞĞµÚÁùÁĞµÄ¸³ÖµÄÚÈİ¾ÍÎª£º"2 3","5 6"
 	REM 	¿ÉÒÔÊ¹ÓÃ 'for %%a in (%½á¹û±äÁ¿%) do for /f "tokens=1,2" %%b in ("%%~a") do echo=µÚ%%bĞĞ£¬µÚ%%cÁĞ' µÄ·½·¨½øĞĞ½á¹ûÊ¹ÓÃ
@@ -816,10 +835,10 @@ REM Àı×Ó£º´ÓÎÄ¼ş "c:\users\a\Database.ini"ÖĞµÚÈıµ½ÎåĞĞÒÔ"	"Îª·Ö¸ô·ûµÄµÚÒ»ÁĞÖĞ²»Ç
 REM					call:Database_Find /i "c:\users\a\Database.ini" "	" "data" "3-5" "1" "result"
 REM ·µ»ØÖµÏêÇé£º0-¸ù¾İÖ¸¶¨×Ö·û´®ÕÒµ½½á¹û²¢ÒÑ¸³Öµ±äÁ¿£¬1-Î´²éÕÒµ½½á¹û£¬2-²ÎÊı²»·ûºÏ×Ó³ÌĞò
 REM ×¢Òâ£ºÁĞÊıÖµ×î¸ßÖ»Ö§³Öµ½31ÁĞ£¬ÍÆ¼öÔÚ´´½¨Êı¾İµÄÊ±ºòÊ¹ÓÃÖÆ±í·û"	"Îª·Ö¸ô·û£¬ÒÔ·ÀºóÆÚÊı¾İºÍ·Ö¸ô·û»ìÏı,ÎÄ±¾Êı¾İ¿âÖĞ²»Òªº¬ÓĞ¿ÕĞĞºÍ¿ÕÖµ£¬·ÀÖ¹·µ»ØÊı¾İ´íÎó
-REM °æ±¾:20151202
+REM °æ±¾:20160625
 :Database_Find
 REM ¼ì²é×Ó³ÌĞòÔËĞĞ»ù±¾ĞèÇó²ÎÊı
-for %%A in (d_F_ErrorPrint d_F_Insensitive) do set "%%A="
+for %%A in (d_F_ErrorPrint d_F_Insensitive d_F_FindFirst) do set "%%A="
 if /i "%~1"=="/i" (
 	set "d_F_Insensitive=/i"
 	shift/1
@@ -828,6 +847,11 @@ if /i "%~1"=="/i" (
 	set "d_F_Insensitive=/i"
 	shift/1
 ) else if /i "%~1"=="/q" (shift/1) else set "d_F_ErrorPrint=Yes"
+
+if /i "%~1"=="/first" (
+	set d_F_FindFirst=Yes
+	shift/1
+)
 
 if "%~6"=="" (
 	if defined d_F_ErrorPrint echo=	[´íÎó%0:²ÎÊı6-Ö¸¶¨½ÓÊÜ½á¹û±äÁ¿ÃûÎª¿Õ]
@@ -893,6 +917,10 @@ for %%_ in (%~4) do (
 			if "!d_F_Pass!"=="0" (set "d_F_Pass=") else set "d_F_Pass=skip=!d_F_Pass!"
 		)
 		call:Database_Find_Run "%~1" "%~2" "%~5" "%~3" "%~6"
+		if defined d_F_FindFirst if defined %~6 (
+			set "%~6=!%~6:~1!"
+			exit/b 0
+		)
 	) else (
 		for /f "tokens=1,2 delims=-" %%: in ("%%~_") do (
 			if "%%~:"=="%%~;" (
@@ -902,6 +930,10 @@ for %%_ in (%~4) do (
 			) else call:Database_Find2 "%%~:" "%%~;"
 			if "!d_F_Pass!"=="0" (set "d_F_Pass=") else set "d_F_Pass=skip=!d_F_Pass!"
 			call:Database_Find_Run "%~1" "%~2" "%~5" "%~3" "%~6"
+			if defined d_F_FindFirst if defined %~6 (
+				set "%~6=!%~6:~1!"
+				exit/b 0
+			)
 		)
 	)
 )
@@ -921,98 +953,99 @@ for /f "usebackq %d_F_Pass% eol=^ tokens=%~3 delims=%~2" %%? in ("%~1") do (
 	
 	if not defined d_F_AlreadyLineNumber!d_F_Count2! (
 		set "d_F_AlreadyLineNumber!d_F_Count2!=Yes"
+		
 		if "%%?"=="%%~?" (
-			if %d_F_Insensitive% "%%?"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column1!"
+			if %d_F_Insensitive% "%%?"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column1!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%@"=="%%~@" (
-			if %d_F_Insensitive% "%%@"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column2!"
+			if %d_F_Insensitive% "%%@"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column2!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%A"=="%%~A" (
-			if %d_F_Insensitive% "%%A"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column3!"
+			if %d_F_Insensitive% "%%A"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column3!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%B"=="%%~B" (
-			if %d_F_Insensitive% "%%B"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column4!"
+			if %d_F_Insensitive% "%%B"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column4!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%C"=="%%~C" (
-			if %d_F_Insensitive% "%%C"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column5!"
+			if %d_F_Insensitive% "%%C"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column5!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%D"=="%%~D" (
-			if %d_F_Insensitive% "%%D"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column6!"
+			if %d_F_Insensitive% "%%D"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column6!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%E"=="%%~E" (
-			if %d_F_Insensitive% "%%E"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column7!"
+			if %d_F_Insensitive% "%%E"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column7!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%F"=="%%~F" (
-			if %d_F_Insensitive% "%%F"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column8!"
+			if %d_F_Insensitive% "%%F"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column8!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%G"=="%%~G" (
-			if %d_F_Insensitive% "%%G"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column9!"
+			if %d_F_Insensitive% "%%G"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column9!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%H"=="%%~H" (
-			if %d_F_Insensitive% "%%H"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column10!"
+			if %d_F_Insensitive% "%%H"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column10!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%I"=="%%~I" (
-			if %d_F_Insensitive% "%%I"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column11!"
+			if %d_F_Insensitive% "%%I"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column11!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%J"=="%%~J" (
-			if %d_F_Insensitive% "%%J"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column12!"
+			if %d_F_Insensitive% "%%J"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column12!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%K"=="%%~K" (
-			if %d_F_Insensitive% "%%K"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column13!"
+			if %d_F_Insensitive% "%%K"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column13!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%L"=="%%~L" (
-			if %d_F_Insensitive% "%%L"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column14!"
+			if %d_F_Insensitive% "%%L"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column14!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%M"=="%%~M" (
-			if %d_F_Insensitive% "%%M"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column15!"
+			if %d_F_Insensitive% "%%M"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column15!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%N"=="%%~N" (
-			if %d_F_Insensitive% "%%N"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column16!"
+			if %d_F_Insensitive% "%%N"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column16!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%O"=="%%~O" (
-			if %d_F_Insensitive% "%%O"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column17!"
+			if %d_F_Insensitive% "%%O"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column17!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%P"=="%%~P" (
-			if %d_F_Insensitive% "%%P"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column18!"
+			if %d_F_Insensitive% "%%P"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column18!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%Q"=="%%~Q" (
-			if %d_F_Insensitive% "%%Q"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column19!"
+			if %d_F_Insensitive% "%%Q"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column19!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%R"=="%%~R" (
-			if %d_F_Insensitive% "%%R"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column20!"
+			if %d_F_Insensitive% "%%R"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column20!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%S"=="%%~S" (
-			if %d_F_Insensitive% "%%S"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column21!"
+			if %d_F_Insensitive% "%%S"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column21!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%T"=="%%~T" (
-			if %d_F_Insensitive% "%%T"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column22!"
+			if %d_F_Insensitive% "%%T"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column22!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%U"=="%%~U" (
-			if %d_F_Insensitive% "%%U"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column23!"
+			if %d_F_Insensitive% "%%U"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column23!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%V"=="%%~V" (
-			if %d_F_Insensitive% "%%V"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column24!"
+			if %d_F_Insensitive% "%%V"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column24!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%W"=="%%~W" (
-			if %d_F_Insensitive% "%%W"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column25!"
+			if %d_F_Insensitive% "%%W"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column25!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%X"=="%%~X" (
-			if %d_F_Insensitive% "%%X"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column26!"
+			if %d_F_Insensitive% "%%X"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column26!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%Y"=="%%~Y" (
-			if %d_F_Insensitive% "%%Y"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column27!"
+			if %d_F_Insensitive% "%%Y"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column27!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%Z"=="%%~Z" (
-			if %d_F_Insensitive% "%%Z"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column28!"
+			if %d_F_Insensitive% "%%Z"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column28!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%["=="%%~[" (
-			if %d_F_Insensitive% "%%["=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column29!"
+			if %d_F_Insensitive% "%%["=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column29!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%\"=="%%~\" (
-			if %d_F_Insensitive% "%%\"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column30!"
+			if %d_F_Insensitive% "%%\"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column30!"&if defined d_F_FindFirst exit/b
 		)
 		if "%%]"=="%%~]" (
-			if %d_F_Insensitive% "%%]"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column31!"
+			if %d_F_Insensitive% "%%]"=="%~4" set %~5=!%~5!,"!d_F_Count2! !d_F_Column31!"&if defined d_F_FindFirst exit/b
 		)
 	)
 	if /i not "%d_F_Count%"=="No" (
