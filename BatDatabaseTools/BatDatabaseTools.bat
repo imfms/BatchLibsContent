@@ -37,7 +37,7 @@ call:Database_Update "test.txt" "	" "3" "2,5" "change1" "change2"
 type test.txt
 
 echo=&pause&echo=
-将第2行第3第4列内容分别更改为:change3,change4
+echo=将第2行第3第4列内容分别更改为:change3,change4
 call:Database_Update "test.txt" "	" "2" "3,4" "change3" "change4"
 type test.txt
 
